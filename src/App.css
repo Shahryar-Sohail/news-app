@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  border: none;
+  height: 450px;
+}
+.card img{
+  transition: transform 0.1s ease-in-out;
+}
+.card img:hover{
+  transform: scale(1.1);
+}
+.card-title a{
+  color: black;
+  text-decoration: none;
+}
+.card-title a:hover{
+  color: blue;
+}
